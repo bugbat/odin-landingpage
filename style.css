@@ -49,7 +49,6 @@ button.alt {
     background-color: white;
     display: flex;
     flex-direction: column;
-
 }
 
 .twocolumn {
@@ -57,7 +56,8 @@ button.alt {
     background-color: #1f2937;
     display: flex;
     padding: 50px 100px;
-    gap: 50px;
+    gap: 100px;
+    justify-content: center;
 }
 
 .infoboxes {
@@ -92,6 +92,7 @@ button.alt {
 .calltoaction {
     display: flex;
     padding: 50px 150px;
+    justify-content: center;
 }
 
 .ctabox {
