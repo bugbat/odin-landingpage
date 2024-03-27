@@ -3,59 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
     <title>Document</title>
 </head>
 <body>
     <div class="header">
-        <img src="" alt="Qfwfq Logo"> 
-        <ul>
-            <li>Header link 1</li>
-            <li>Header link 2</li>
-            <li>Header link 3</li>
+        <a href ="./index.html"><img src="./images/logo.png" alt="Qfwfq Logo" height="40px"></a>
+        <ul class="nav">
+            <li><a href="">Plan a Trip</a></li>
+            <li><a href="">Recommended Routes</a></li>
+            <li><a href="">About</a></li>
         </ul>
     </div>
     <div class="content">
         <div class="twocolumn">
-            <div>
-                <h1>This website is awesome</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur consequatur ut modi commodi blanditiis repellat, eos placeat quibusdam minima repudiandae nam sed eveniet debitis reprehenderit odio minus, laboriosam delectus impedit.</p>
+            <div class="twocolumnleft">
+                <h1 class="heromain roboto-bold">Book a trip to a new world</h1>
+                <p class="herosecondary">Engage our one-of-a-kind travel agents today and find yourself in a new country, on a different planet, or in a different time within a week.</p>
                 <button>Sign up</button>
             </div>
-            <img src="" alt="top image placeholder">
+            <img src="./images/topimage.png" class="roundedcorner" alt="top image placeholder" height="200px">
         </div>
-        <div class="midblock">
-            <p>Some random info:</p>
+        <div class="h roboto-extra-bold"><h2>Where will you find yourself?</h2></div>
+        <div class="infoboxes">
             <div class="infobox">
-                <img src="" alt="placeholder">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti optio perspiciatis reiciendis expedita.</p>
+                <img src="./images/planet.png" alt="placeholder" width="100px">
+                <p>Surfing the rings of Saturn</p>
             </div>
             <div class="infobox">
-                <img src="" alt="placeholder">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti optio perspiciatis reiciendis expedita.</p>
+                <img src="./images/planet2.png" alt="placeholder" width="100px">
+                <p>Somewhere wet and blue</p>
             </div>
             <div class="infobox">
-                <img src="" alt="placeholder">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti optio perspiciatis reiciendis expedita.</p>
+                <img src="./images/planet-earth.png" alt="placeholder" width="100px">
+                <p>Maybe you just need to get back to Earth</p>
             </div>
             <div class="infobox">
-                <img src="" alt="placeholder">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti optio perspiciatis reiciendis expedita.</p>
+                <img src="./images/venus.png" alt="placeholder" width="100px">
+                <p>Or you need a bright red tan</p>
             </div>
         </div>
         <div class="quoteblock">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius reiciendis dolorem quasi veritatis voluptates corrupti exercitationem deserunt dolorum voluptatum nulla minima architecto, quae, veniam, facere quia aspernatur distinctio? Ipsam, doloremque!</p>
-            <p> -Author</p>
+            <p class="quote roboto-light-italic">"I thought only of the Earth. It was the Earth that caused each of us to be that someone he was rather than someone else; up there, wrested from the Earth, it was as if I were no longer that I, nor she that She for me." </p>
+            <p class="quoteauthor"> -Italo Calvino, Cosmicomics</p>
         </div>
         <div class="calltoaction">
             <div class="ctabox">
-                <h2>Call to action! It's time!</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, minima iusto soluta hic aliquam excepturi odio incidunt aperiam possimus saepe quis, perspiciatis corporis eum! Minima ad asperiores explicabo cupiditate sed.</p>
-                <button>Sign up</button>
+                <div class="ctatext">
+                    <h2>Time to make your move!</h2>
+                    <p class="herosecondary">Still daydreaming of silver pools on Solaris? Sign up for our newsletter and learn about upcoming experiences.</p>
+                </div>
+                <div class="ctabutton">
+                    <button class="alt">Sign up</button>
+                </div>
             </div>
         </div>
     </div>
     <div class="footer">
-        <p>Copyright © Qfwfq Travel 2024</p>
+        <p>Copyright © Qfwfq Travel 2024 | Planet icons from Freepik</p>
     </div>
 </body>
 </html>
